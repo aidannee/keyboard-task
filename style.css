@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: auto;
+  background-image: url("/images/ex.jpeg");
+  background-size: cover;
+  font-family: sans-serif;
+  font-size: x-large;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ! top area */
+
+#textResult {
+  padding-top: 20px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#instructions,
+#resultArea {
+  background-color: lightgrey;
+}
+#instructions {
+  margin-bottom: 30px;
+  padding: 10px 30px;
+}
+#resultArea {
+  padding: 5px;
+}
+/* !Keyboard background  */
+#keyboardArea {
+  padding-top: 10px;
+  background-color: rgba(128, 128, 128, 0.093);
+  height: 50vh;
+}
+
+/* !Keyboard */
+table {
+  display: flex;
+  justify-content: center;
+}
+tr {
+  display: flex;
+  justify-content: center;
+}
+
+.letterButtons {
+  height: 5vh;
+  width: 10vh;
+  margin: 1vh 0.5vh;
+  background-color: rgba(0, 0, 0, 0.445);
+  color: white;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+.letterButtons:hover {
+  background-color: rgba(0, 0, 0, 0.727);
+}
+.spacebar {
+  margin-top: 1vh;
+  height: 5vh;
+  width: 35vh;
+  background-color: rgba(0, 0, 0, 0.445);
+  color: white;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+.spacebar:hover {
+  background-color: rgba(0, 0, 0, 0.727);
+}
